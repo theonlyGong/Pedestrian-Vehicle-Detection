@@ -23,7 +23,7 @@
 
 参考的相关模型包括：YOLOv26负责视频中行人+车辆的检测；由于视频普遍分辨率较低，需要AI进行视频超分辨率重构。
 
-1. YOLOv26：[Ultralytics YOLO26 | Ultralytics Docs](https://docs.ultralytics.com/models/yolo26)；可以在这里下载YOLO26n，YOLO26s，YOLO26x等模型。需要你自己创建个checkpoints文件夹进行保存。
+1. YOLOv26：[Ultralytics YOLO26 | Ultralytics Docs](https://docs.ultralytics.com/models/yolo26)；可以在这里下载YOLO26n，YOLO26s，YOLO26x等模型。**需要你自己创建个checkpoints文件夹进行保存。**
    使用模型需要预先```pip install ultralytics```，后实例化模型即可调用。
 2. realesrgan-ncnn-vulkan超分辨率模型：[xinntao/Real-ESRGAN-ncnn-vulkan: NCNN implementation of Real-ESRGAN. Real-ESRGAN aims at developing Practical Algorithms for General Image Restoration.](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan)；也可以直接下载realesrgan的exe文件进行调用（个人选择这种）。
 3. 检测结果：
